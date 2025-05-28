@@ -1,9 +1,9 @@
 
 
-public  class LC622_DesignCircularQueue {
+public  class LC0622_DesignCircularQueue {
 	public int[] queue;
 	public int head, tail, size, limit;
-	public LC622_DesignCircularQueue(int k) {
+	public LC0622_DesignCircularQueue(int k) {
 		queue = new int[k];
 		head = tail = size = 0;
 		limit = k;

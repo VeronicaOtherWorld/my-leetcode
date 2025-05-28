@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class LC225_232_ConvertQueueAndStack {
+public class LC0225_0232_ConvertQueueAndStack {
 	class MyQueue {
 		public Stack<Integer> in;
 		public Stack<Integer> out;
