@@ -9,7 +9,7 @@
  * }
  */
 
-public class LC2_AddTwoNumbers {
+public class LC0002_AddTwoNumbers {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ListNode head = null, current = null;
 		int carry = 0;
