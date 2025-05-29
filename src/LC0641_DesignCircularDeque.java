@@ -12,7 +12,7 @@ import java.util.LinkedList;
 // 删除元素时， 若队列为空， 返回 false； 否则， 若 l == r， 则 l = r = 0， 并将数组的第一个元素置为 0； 否则， 若 l == 0， 则 l = k - 1； 否则， l++， 并将数组的 l 位置置为 0； 最后， size--， 返回 true
 // 获取元素时， 若队列为空， 返回 -1； 否则， 返回数组的 l 位置的元素
 
-public class LC641_DesignCircularDeque {
+public class LC0641_DesignCircularDeque {
 	class MyCircularDeque {
 		public Deque<Integer> deque;
 		public int size;
